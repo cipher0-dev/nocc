@@ -9,7 +9,7 @@
 #include <unistd.h>
 
 void exit_usage(const char *cmd) {
-  fprintf(stderr, "usage: %s text_path out_path\n", cmd);
+  fprintf(stderr, "usage: %s <text_path> <out_path>\n", cmd);
   exit(EXIT_FAILURE);
 }
 
